@@ -30,19 +30,19 @@ public String execute () {
 	}
 	return ret;
 }
-public String getUsername( ) {
+public String getUsername() {
 	return username;
 }
 public void setUsername(String username) {
 	this.username = username;
 }
-public String getPassword ( ) {
+public String getPassword () {
 	return password;
 }
-public void setPassword(String password ) {
+public void setPassword(String password) {
 	this.password = password;
 }
-public Map<String, Object>getSession () {
+public Map<String, Object>getSession() {
 	return session;
 }
 public void setSession (Map<String, Object> session) {

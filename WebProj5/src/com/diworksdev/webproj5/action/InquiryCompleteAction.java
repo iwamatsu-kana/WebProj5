@@ -4,11 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.struts2.interceptor.SessionAware;
+
 import com.diworksdev.webproj5.dao.InquiryCompleteDAO;
 import com.diworksdev.webproj5.dto.InquiryDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
-public class InquiryCompleteAction extends ActionSupport{
+public class InquiryCompleteAction extends ActionSupport implements SessionAware {
 	private String name;
 	private String qtype;
 	private String body;

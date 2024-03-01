@@ -17,7 +17,7 @@
 		<th>お問い合わせ内容</th>
 	</tr>
 
-	<s;iterator value="#session.inquiryDTOList">
+	<s:iterator value="#session.inquiryDTOList">
 	<tr>
 
 	<td><s:property value="name" /></td>
@@ -37,7 +37,7 @@
 	<td><s:property value="body" /></td>
 
 	</tr>
-	</s;iterator>
+	</s:iterator>
 
 </tbody>
 </table>
